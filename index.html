@@ -1,1 +1,152 @@
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Persönliches Portfolio mit ausgewählten Projekten und Arbeitsproben aus den Bereichen Digital Marketing, Videoproduktion und Content.">
+  <title>Mehmet Atilgan | Portfolio & Arbeitsproben</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 40px 20px;
+      background: #f5f5f2;
+      color: #20211f;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    main {
+      width: 100%;
+      max-width: 540px;
+      margin: 20px auto;
+    }
+
+    .eyebrow {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #6b6d66;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 18px 0 10px;
+      font-size: clamp(30px, 8vw, 40px);
+      line-height: 1.15;
+      letter-spacing: -1px;
+    }
+
+    .intro {
+      margin: 0 0 30px;
+      color: #62645f;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .section-title {
+      margin: 0 0 14px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #62645f;
+    }
+
+    .links {
+      display: grid;
+      gap: 13px;
+    }
+
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 20px;
+      border: 1px solid #deded8;
+      border-radius: 12px;
+      background: #ffffff;
+      color: #20211f;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .links a:hover {
+      background: #eaeae5;
+      transform: translateY(-1px);
+    }
+
+    .arrow {
+      color: #777970;
+      font-size: 19px;
+      flex-shrink: 0;
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #777970;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .links a {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Portfolio & Arbeitsproben</div>
+
+    <h1>Mehmet Atilgan</h1>
+
+    <p class="intro">
+      Ausgewählte Projekte und digitale Inhalte, an deren Konzeption
+      und Umsetzung ich im Bereich Digital Marketing, Videoproduktion
+      und Content mitgewirkt habe.
+    </p>
+
+    <p class="section-title">Projekte & ausgewählte Arbeiten</p>
+
+    <nav class="links" aria-label="Ausgewählte Arbeitsproben">
+      <a href="https://www.seltmann.com"
+         target="_blank" rel="noopener noreferrer">
+        <span>Seltmann Weiden – Website</span>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a href="https://b2bshop.seltmann.com/B2B_DE"
+         target="_blank" rel="noopener noreferrer">
+        <span>Seltmann Weiden – B2B-Shop</span>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a href="https://www.instagram.com/reel/DZuYGDHt8q5"
+         target="_blank" rel="noopener noreferrer">
+        <span>Instagram – Seltmann Weiden</span>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a href="https://m.youtube.com/watch?v=FzfjQJX7WPY"
+         target="_blank" rel="noopener noreferrer">
+        <span>YouTube – Seltmann Weiden</span>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+    </nav>
+
+    <footer>
+      Ausgewählte digitale Projekte und Arbeitsproben
+    </footer>
+  </main>
+</body>
+</html>
